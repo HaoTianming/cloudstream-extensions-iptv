@@ -1,5 +1,5 @@
 <div align="center"><h1>An IPTV Plugin for Cloudstream </h1></div>
-<div align="center"><a href="https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README_CN.md"><h1>🇨🇳 CN</h1></a></div>
+<a href="https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README_CN.md"><h1>CN</h1></a>
 <p align="center">
   <a href="https://github.com/HaoTianming/cloudstream-extensions-iptv/raw/refs/heads/master/LICENSE"><img src="https://www.gnu.org/graphics/gplv3-127x51.png" /></a><br/>
   <a href="https://skillicons.dev">
