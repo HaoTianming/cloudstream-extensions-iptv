@@ -1,7 +1,6 @@
 <div align="center"><h1>An IPTV Plugin for Cloudstream </h1></div>
 
-# [🇨🇳 CN](https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README_CN.md)
-# [🇺🇸 EN](https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README.md)
+## Language: [🇨🇳 CN](https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README_CN.md) &nbsp;| [🇺🇸 EN](https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README.md)
 
 <p align="center">
   <a href="https://github.com/HaoTianming/cloudstream-extensions-iptv/raw/refs/heads/master/LICENSE"><img src="https://www.gnu.org/graphics/gplv3-127x51.png" /></a><br/>
