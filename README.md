@@ -1,6 +1,6 @@
 <div align="center"><h1>A Public IPTV Plugin for Cloudstream </h1></div>
 <p align="center">
-  <a href=""><img src="https://www.gnu.org/graphics/gplv3-127x51.png" /></a><br/>
+  <a href="https://github.com/HaoTianming/cloudstream-extensions-iptv/raw/refs/heads/master/LICENSE"><img src="https://www.gnu.org/graphics/gplv3-127x51.png" /></a><br/>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,gradle,github,githubactions&theme=light&perline=5" />
   </a>
