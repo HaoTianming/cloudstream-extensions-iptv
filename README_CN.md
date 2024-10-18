@@ -1,4 +1,8 @@
 <div align="center"><h1>Cloudstream 的 IPTV 插件</h1></div>
+
+## 语言: [🇨🇳 CN](https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README_CN.md) &nbsp;| [🇺🇸 EN](https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README.md)
+
+
 <p align="center">
   <a href="https://github.com/HaoTianming/cloudstream-extensions-iptv/raw/refs/heads/master/LICENSE"><img src="https://www.gnu.org/graphics/gplv3-127x51.png" /></a><br/>
   <a href="https://skillicons.dev">
