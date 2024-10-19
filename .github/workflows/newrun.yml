@@ -21,13 +21,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Create branch if not found 
-        run: |
-          git checkout -f builds || git switch --discard-changes --orphan builds
-    
-      - name: Checkout
-        uses: actions/checkout@v4
         with:
           path: "src"
 
