@@ -8,7 +8,11 @@ android {
     defaultConfig {
         val properties = Properties()
         properties.load(project.rootProject.file("local.properties").inputStream())
-        buildConfigField("String", "ExampleIPTV", "\"${properties.getProperty("ExampleIPTV")}\"")
+        buildConfigField("String", "PublicIPTV", "\"${properties.getProperty("PublicIPTV")}\"")
+        buildConfigField("String", "PublicJapanIPTV1", "\"${properties.getProperty("PublicJapanIPTV1")}\"")
+        buildConfigField("String", "PublicAsianIPTV1", "\"${properties.getProperty("PublicAsianIPTV1")}\"")
+        buildConfigField("String", "PublicAsianIPTV2", "\"${properties.getProperty("PublicAsianIPTV2")}\"")
+        buildConfigField("String", "PublicSportsIPTV1", "\"${properties.getProperty("PublicSportsIPTV1")}\"")
     }
 }
 
