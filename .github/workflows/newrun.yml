@@ -24,7 +24,7 @@ jobs:
         with:
           path: "src"
 
-      - name: Create branch if not found 🏗️
+      - name: Create branch if not found 
         run: |
           git checkout -f update || git switch --discard-changes --orphan builds    
 
