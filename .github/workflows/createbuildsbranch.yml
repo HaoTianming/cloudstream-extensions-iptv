@@ -17,6 +17,10 @@ jobs:
           git checkout --orphan builds
           
           # Remove all files from the index
+
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          
           git rm -rf .
           git commit -m "Initial commit on builds branch"
 
