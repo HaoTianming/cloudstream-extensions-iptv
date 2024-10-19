@@ -1,7 +1,7 @@
 name: Build
 
 # https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#concurrency
-concurrency: 
+concurrency:
   group: "build"
   cancel-in-progress: true
 
@@ -20,27 +20,43 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
         with:
           path: "src"
 
       - name: Checkout builds
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
         with:
           ref: "builds"
           path: "builds"
-      
+
       - name: Clean old builds
-        run: rm $GITHUB_WORKSPACE/builds/*.cs3
+        run: rm $GITHUB_WORKSPACE/builds/*.cs3 || true
 
       - name: Setup JDK 11
-        uses: actions/setup-java@v1
+        uses: actions/setup-java@v4
         with:
+          distribution: "adopt"
           java-version: 11
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2
 
+      - name: Access Secrets
+        env:
+          PublicIPTV: ${{ secrets.PublicIPTV }}
+          PublicJapanIPTV1: ${{ secrets.PublicJapanIPTV1 }}
+          PublicAsianIPTV1: ${{ secrets.PublicAsianIPTV1 }}
+          PublicAsianIPTV2: ${{ secrets.PublicAsianIPTV2 }}
+          PublicSportsIPTV1: ${{ secrets.PublicSportsIPTV1 }}
+        run: |
+          cd $GITHUB_WORKSPACE/src
+          echo PublicIPTV=$PublicIPTV >> local.properties
+          echo PublicJapanIPTV1=$PublicJapanIPTV1 >> local.properties
+          echo PublicAsianIPTV1=$PublicAsianIPTV1 >> local.properties
+          echo PublicAsianIPTV2=$PublicAsianIPTV2 >> local.properties
+          echo PublicSportsIPTV1=$PublicSportsIPTV1 >> local.properties
+          
       - name: Build Plugins
         run: |
           cd $GITHUB_WORKSPACE/src
