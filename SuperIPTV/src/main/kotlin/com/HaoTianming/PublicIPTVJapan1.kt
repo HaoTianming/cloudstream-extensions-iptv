@@ -7,7 +7,7 @@ import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.INFER_TYPE
 import com.lagradost.cloudstream3.utils.Qualities
 
-class PublicIPTVJapan1 : PublicIPTV () {
+class PublicIPTVJapan1 : PublicIPTV() {
     override var lang = "en"
     override var mainUrl: String = BuildConfig.PublicIPTVJapan1
     override var name = "Public Japan IPTV Playlist #1"
