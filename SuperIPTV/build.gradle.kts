@@ -2,24 +2,21 @@
 
 import org.jetbrains.kotlin.konan.properties.Properties
 // use an integer for version numbers
-version = 4
+version = 1
 
 android {
     defaultConfig {
         val properties = Properties()
         properties.load(project.rootProject.file("local.properties").inputStream())
-        buildConfigField("String", "Su_sports", "\"${properties.getProperty("Su_sports")}\"")
-        buildConfigField("String", "PirateIPTV", "\"${properties.getProperty("PirateIPTV")}\"")
-        buildConfigField("String", "SonyIPTV", "\"${properties.getProperty("SonyIPTV")}\"")
-        buildConfigField("String", "JapanIPTV", "\"${properties.getProperty("JapanIPTV")}\"")
+        buildConfigField("String", "ExampleIPTV", "\"${properties.getProperty("ExampleIPTV")}\"")
     }
 }
 
 cloudstream {
     // All of these properties are optional, you can safely remove them
     language = "en"
-    description = "Includes PirateIPTV,Sports IPTV,Japanese IPTV,Sony IPTV"
-    authors = listOf("Phisher98")
+    description = "IPTV Playlist aggregator"
+    authors = listOf("HaoTianming")
 
     /**
      * Status int as the following:
