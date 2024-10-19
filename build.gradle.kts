@@ -5,7 +5,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        // Shitpack repo which contains our tools and dependencies 
         maven("https://jitpack.io")
     }
 
@@ -13,7 +12,7 @@ buildscript {
         classpath("com.android.tools.build:gradle:7.0.4")
         // Cloudstream gradle plugin which makes everything work and builds plugins
         classpath("com.github.recloudstream:gradle:-SNAPSHOT")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.21")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.23")
     }
 }
 
@@ -26,7 +25,6 @@ allprojects {
 }
 
 fun Project.cloudstream(configuration: CloudstreamExtension.() -> Unit) = extensions.getByName<CloudstreamExtension>("cloudstream").configuration()
-
 fun Project.android(configuration: BaseExtension.() -> Unit) = extensions.getByName<BaseExtension>("android").configuration()
 
 subprojects {
@@ -35,18 +33,21 @@ subprojects {
     apply(plugin = "com.lagradost.cloudstream3.gradle")
 
     cloudstream {
-        // when running through github workflow, GITHUB_REPOSITORY should contain current repository name
-        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "user/repo")
+        // compatible with other git hosting services, like gitlab, gitDab, codeBerg
+        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/HaoTianming/HaoTianming")
     }
 
     android {
+
         defaultConfig {
             minSdk = 21
             compileSdkVersion(33)
+            //noinspection OldTargetApi
             targetSdk = 33
         }
 
         compileOptions {
+            isCoreLibraryDesugaringEnabled = true
             sourceCompatibility = JavaVersion.VERSION_1_8
             targetCompatibility = JavaVersion.VERSION_1_8
         }
