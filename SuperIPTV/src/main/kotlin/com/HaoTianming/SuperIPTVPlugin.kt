@@ -9,7 +9,7 @@ class QuickIPTVPlugin: Plugin() {
         // All providers should be added in this manner. Please don't edit the providers list directly.
         registerMainAPI(PublicIPTV())
         registerMainAPI(PublicIPTVJapan1())
-        registerMainAPI(())
+        registerMainAPI(PublicBangladeshIPTV1())
         registerMainAPI(())
     }
 }
