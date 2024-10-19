@@ -8,7 +8,7 @@ import com.lagradost.cloudstream3.utils.INFER_TYPE
 import com.lagradost.cloudstream3.utils.Qualities
 
 class PublicBangladeshIPTV1 : PublicIPTV() {
-    override var lang = "en"
+    override var lang = "bn"
     override var mainUrl: String = BuildConfig.PublicBangladeshIPTV1
     override var name = "Public Bangladesh IPTV #1"
     override val hasMainPage = true
