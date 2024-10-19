@@ -11,5 +11,6 @@ class QuickIPTVPlugin: Plugin() {
         registerMainAPI(PublicIPTVJapan1())
         registerMainAPI(PublicAsianIPTV1())
         registerMainAPI(PublicAsianIPTV2())
+        registerMainAPI(PublicSportsIPTV1())
     }
 }
