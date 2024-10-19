@@ -1,0 +1,24 @@
+name: Create builds branch
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  create-orphan-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create orphan branch
+        run: |
+          # Create an orphan branch named "builds"
+          git checkout --orphan builds
+          
+          # Remove all files from the index
+          git rm -rf .
+          git commit -m "Initial commit on builds branch"
+
+          # Push the orphan branch to the remote repository
+          git push origin builds --force
