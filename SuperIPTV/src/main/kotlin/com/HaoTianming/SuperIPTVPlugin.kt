@@ -8,7 +8,7 @@ class QuickIPTVPlugin: Plugin() {
     override fun load(context: Context) {
         // All providers should be added in this manner. Please don't edit the providers list directly.
         registerMainAPI(PublicIPTV())
-        registerMainAPI(())
+        registerMainAPI(PublicIPTVJapan1())
         registerMainAPI(())
         registerMainAPI(())
     }
