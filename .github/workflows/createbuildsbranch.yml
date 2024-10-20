@@ -2,10 +2,7 @@ name: Create Orphan Branch
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master  # Change this to your default branch if it's not 'main'
-
+  
 jobs:
   create-orphan-branch:
     runs-on: ubuntu-latest
@@ -29,5 +26,5 @@ jobs:
           # Commit the changes (no files to commit)
           git commit --allow-empty -m "Initial commit on orphan branch 'builds'"
 
-          # Push the orphan branch to the remote repository
-          git push origin builds
+          # Force push the orphan branch to the remote repository
+          git push --force origin builds
