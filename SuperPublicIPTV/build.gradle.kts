@@ -8,11 +8,11 @@ android {
     defaultConfig {
         val properties = Properties()
         properties.load(project.rootProject.file("local.properties").inputStream())
-        buildConfigField("String", "iptv_org", "\"${properties.getProperty("iptv_org")}\"")
-        buildConfigField("String", "public_japan_iptv_1", "\"${properties.getProperty("public_japan_iptv_1")}\"")
-        buildConfigField("String", "public_asian_iptv_1", "\"${properties.getProperty("public_asian_iptv_1")}\"")
-        buildConfigField("String", "public_asian_iptv_2", "\"${properties.getProperty("public_asian_iptv_2")}\"")
-        buildConfigField("String", "public_sports_iptv_1", "\"${properties.getProperty("public_sports_iptv_1")}\"")
+        buildConfigField("String", "iptv_org", "\"${properties.getProperty("IPTV_ORG")}\"")
+        buildConfigField("String", "public_japan_iptv_1", "\"${properties.getProperty("PUBLIC_JAPAN_IPTV_1")}\"")
+        buildConfigField("String", "public_asian_iptv_1", "\"${properties.getProperty("PUBLIC_ASIAN_IPTV_1")}\"")
+        buildConfigField("String", "public_asian_iptv_2", "\"${properties.getProperty("PUBLIC_ASIAN_IPTV_2")}\"")
+        buildConfigField("String", "public_sports_iptv_1", "\"${properties.getProperty("PUBLIC_SPORTS_IPTV_1")}\"")
     }
 }
 
