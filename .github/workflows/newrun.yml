@@ -44,18 +44,18 @@ jobs:
 
       - name: Access Secrets
         env:
-          PublicIPTV: ${{ secrets.PublicIPTV }}
-          PublicJapanIPTV1: ${{ secrets.PublicJapanIPTV1 }}
-          PublicAsianIPTV1: ${{ secrets.PublicAsianIPTV1 }}
-          PublicAsianIPTV2: ${{ secrets.PublicAsianIPTV2 }}
-          PublicSportsIPTV1: ${{ secrets.PublicSportsIPTV1 }}
+          iptv_org: ${{ secrets.iptv_org }}
+          public_japan_iptv_1: ${{ secrets.public_japan_iptv_1 }}
+          public_asian_iptv_1: ${{ secrets.public_asian_iptv_1 }}
+          public_asian_iptv_2: ${{ secrets.public_asian_iptv_2 }}
+          public_sports_iptv_1: ${{ secrets.public_sports_iptv_1 }}
         run: |
           cd $GITHUB_WORKSPACE/src
-          echo PublicIPTV=$PublicIPTV >> local.properties
-          echo PublicJapanIPTV1=$PublicJapanIPTV1 >> local.properties
-          echo PublicAsianIPTV1=$PublicAsianIPTV1 >> local.properties
-          echo PublicAsianIPTV2=$PublicAsianIPTV2 >> local.properties
-          echo PublicSportsIPTV1=$PublicSportsIPTV1 >> local.properties
+          echo iptv_org=$iptv_org >> local.properties
+          echo public_japan_iptv_1=$public_japan_iptv_1 >> local.properties
+          echo public_asian_iptv_1=$public_asian_iptv_1 >> local.properties
+          echo public_asian_iptv_2=$public_asian_iptv_2 >> local.properties
+          echo public_sports_iptv_1=$public_sports_iptv_1 >> local.properties
           
       - name: Build Plugins
         run: |
