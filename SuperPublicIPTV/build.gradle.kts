@@ -1,87 +1,38 @@
-import com.lagradost.cloudstream3.gradle.CloudstreamExtension 
-import com.android.build.gradle.BaseExtension
+@file:Suppress("UnstableApiUsage")
 
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-        maven("https://jitpack.io")
-    }
+import org.jetbrains.kotlin.konan.properties.Properties
+// use an integer for version numbers
+version = 1
 
-    dependencies {
-        classpath("com.android.tools.build:gradle:7.0.4")
-        // Cloudstream gradle plugin which makes everything work and builds plugins
-        classpath("com.github.recloudstream:gradle:-SNAPSHOT")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.23")
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        maven("https://jitpack.io")
+android {
+    defaultConfig {
+        val properties = Properties()
+        properties.load(project.rootProject.file("local.properties").inputStream())
+        buildConfigField("String", "iptv_org", "\"${properties.getProperty("iptv_org")}\"")
+        buildConfigField("String", "public_japan_iptv_1", "\"${properties.getProperty("public_japan_iptv_1")}\"")
+        buildConfigField("String", "public_asian_iptv_1", "\"${properties.getProperty("public_asian_iptv_1")}\"")
+        buildConfigField("String", "public_asian_iptv_2", "\"${properties.getProperty("public_asian_iptv_2")}\"")
+        buildConfigField("String", "public_sports_iptv_1", "\"${properties.getProperty("public_sports_iptv_1")}\"")
     }
 }
 
-fun Project.cloudstream(configuration: CloudstreamExtension.() -> Unit) = extensions.getByName<CloudstreamExtension>("cloudstream").configuration()
-fun Project.android(configuration: BaseExtension.() -> Unit) = extensions.getByName<BaseExtension>("android").configuration()
+cloudstream {
+    // All of these properties are optional, you can safely remove them
+    language = "international"
+    description = "IPTV Playlist aggregator"
+    authors = listOf("HaoTianming")
 
-subprojects {
-    apply(plugin = "com.android.library")
-    apply(plugin = "kotlin-android")
-    apply(plugin = "com.lagradost.cloudstream3.gradle")
+    /**
+     * Status int as the following:
+     * 0: Down
+     * 1: Ok
+     * 2: Slow
+     * 3: Beta only
+     * */
+    status = 1 // will be 3 if unspecified
+    tvTypes = listOf(
+        "Live",
+    )
 
-    cloudstream {
-        // compatible with other git hosting services, like gitlab, gitDab, codeBerg
-        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/HaoTianming/HaoTianming")
-    }
-
-    android {
-
-        defaultConfig {
-            minSdk = 21
-            compileSdkVersion(33)
-            //noinspection OldTargetApi
-            targetSdk = 33
-        }
-
-        compileOptions {
-            isCoreLibraryDesugaringEnabled = true
-            sourceCompatibility = JavaVersion.VERSION_1_8
-            targetCompatibility = JavaVersion.VERSION_1_8
-        }
-
-        tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-            kotlinOptions {
-                jvmTarget = "1.8" // Required
-                // Disables some unnecessary features
-                freeCompilerArgs = freeCompilerArgs +
-                        "-Xno-call-assertions" +
-                        "-Xno-param-assertions" +
-                        "-Xno-receiver-assertions"
-            }
-        }
-    }
-
-    dependencies {
-        val apk by configurations
-        val implementation by configurations
-
-        // Stubs for all Cloudstream classes
-        apk("com.lagradost:cloudstream3:pre-release")
-
-        // these dependencies can include any of those which are added by the app,
-        // but you dont need to include any of them if you dont need them
-        // https://github.com/recloudstream/cloudstream/blob/master/app/build.gradle
-        implementation(kotlin("stdlib")) // adds standard kotlin features
-        implementation("com.github.Blatzar:NiceHttp:0.4.4") // http library
-        implementation("org.jsoup:jsoup:1.16.2") // html parser
-        implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.0")
-        implementation("com.fasterxml.jackson.core:jackson-databind:2.16.0")
-    }
-}
-
-task<Delete>("clean") {
-    delete(rootProject.buildDir)
+    iconUrl = "https://www.google.com/s2/favicons?domain=github.com&sz=%size%"
 }
