@@ -7,10 +7,10 @@ import android.content.Context
 class PublicIPTVPlugin: Plugin() {
     override fun load(context: Context) {
         // All providers should be added in this manner. Please don't edit the providers list directly.
-        registerMainAPI(iptv_org())
-        registerMainAPI(public_japan_iptv_1())
-        registerMainAPI(public_asian_iptv_1())
-        registerMainAPI(public_asian_iptv_2())
-        registerMainAPI(public_sports_iptv_1())
+        registerMainAPI(PublicIPTV())
+        registerMainAPI(PublicJapanIPTV1())
+        registerMainAPI(PublicAsianIPTV1())
+        registerMainAPI(PublicAsianIPTV2())
+        registerMainAPI(PublicSportsIPTV1())
     }
 }
