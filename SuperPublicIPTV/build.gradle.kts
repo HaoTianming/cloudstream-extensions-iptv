@@ -19,7 +19,7 @@ android {
 cloudstream {
     // All of these properties are optional, you can safely remove them
     language = "international"
-    description = "IPTV Playlist aggregator"
+    description = "Public IPTV Playlist aggregator"
     authors = listOf("HaoTianming")
 
     /**
