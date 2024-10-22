@@ -44,11 +44,11 @@ jobs:
 
       - name: Access Secrets
         env:
-          iptv_org: ${{ secrets.iptv_org }}
-          public_japan_iptv_1: ${{ secrets.public_japan_iptv_1 }}
-          public_asian_iptv_1: ${{ secrets.public_asian_iptv_1 }}
-          public_asian_iptv_2: ${{ secrets.public_asian_iptv_2 }}
-          public_sports_iptv_1: ${{ secrets.public_sports_iptv_1 }}
+          iptv_org: ${{ secrets.IPTV_ORG }}
+          public_japan_iptv_1: ${{ secrets.PUBLIC_JAPAN_IPTV_1 }}
+          public_asian_iptv_1: ${{ secrets.PUBLIC_ASIAN_IPTV_1 }}
+          public_asian_iptv_2: ${{ secrets.PUBLIC_ASIAN_IPTV_2 }}
+          public_sports_iptv_1: ${{ secrets.PUBLIC_SPORTS_IPTV_1 }}
         run: |
           cd $GITHUB_WORKSPACE/src
           echo iptv_org=$iptv_org >> local.properties
