@@ -47,6 +47,10 @@
     <td>PublicAsianIPTV1</td>
     <td>🇧🇩 🇵🇰 🇮🇳 🇦🇪</td>
   </tr>
+  <tr>
+    <td>PublicIndiaIPTV3</td>
+    <td>🇧🇩 🇵🇰 🇮🇳 🇦🇪</td>
+  </tr>  
 </tbody>
 </table>
 <br/>
