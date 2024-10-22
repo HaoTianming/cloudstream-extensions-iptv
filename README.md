@@ -12,6 +12,7 @@
 <br/>
 
 > [!CAUTION]
+> ## - This repository is intended for educational and communication purposes only, please do not use it for any commercial purposes whatsoever.
 > ### - ***By installing and using this extension, you acknowledge that the developers are not liable for the content accessed through the extension/plugin. Please be aware that such content may originate from sources that are not verified or legitimate.***
 > ### - ***It is your sole responsibility as the end user to ensure the legal use of this extension/plugin, and we strongly recommend verifying that any content complies accessed via the extension/plugin with the laws and regulations applicable in your respective jurisdictions, including but not limited to intellectual property laws.*** 
 > ---
