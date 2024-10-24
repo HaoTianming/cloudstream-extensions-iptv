@@ -1,6 +1,6 @@
 <div align="center"><h1>Cloudstream 的 IPTV 扩展/插件</h1></div>
-
-## 语言: [🇨🇳 CN](https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README_CN.md) &nbsp;| [🇺🇸 EN](https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README.md)
+<div align="center"><h2>⚠️ 一项正在进行中的工作 ⚠️ </h2></div>
+<h2><div align="center">语言: <a href="https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README_CN.md">🇨🇳 CN</a> | <a href="https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README.md">🇺🇸 EN</a></div></h2>
 
 <p align="center">
   <a href="https://github.com/HaoTianming/cloudstream-extensions-iptv/raw/refs/heads/master/LICENSE"><img src="https://www.gnu.org/graphics/gplv3-127x51.png" /></a><br/>
@@ -11,6 +11,11 @@
 
 <br/>
 
+> [!NOTE]
+> - #### 由于扩展/插件的运行机制，本资源库****不接受也****不会接受任****求任何类型的****内容。请勿****就此提出任****题。
+> - ### ****不要打开****有关某些频道或****视频流无法工****或加载的任****题。由于我们****不托管、重新托管、流式传输、重新流式传输、存储或控****任何媒体、文件或视频流，或可通过扩展程序/插件提供的功能访问的任何其他内容。
+> - #### 如果没有连接到与播放列表国家相匹配的****VPN服务器****，某些流媒体/频道****将无法****。
+
 > [!CAUTION]
 > ## 本仓库仅用于教育和交流目的，请勿将其用于任何商业目的。</li></ul>
 > ### <ul><li> 安装和使用此扩展时，您承认开发者对通过扩展/插件访问的内容不承担任何责任。请注意，这些内容可能来自未经验证或不合法的来源。</li></ul>
@@ -18,41 +23,6 @@
 > ---
 > ### <ul><li> 如果您拥有任何版权或代表版权拥有者，或对通过此扩展/插件访问的内容有任何疑问，我们强烈建议您查看[README 的 DMCA 部分](https://github.com/HaoTianming/cloudstream-extensions-iptv/blob/master/README_CN.md#dmca)以获取重要信息。</li></ul>
 
-<br/>
-
-<h1>提供者</h1>
-<table><thead>
-  <tr>
-    <th>提供者</th>
-    <th>国家</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td>PublicIPTV</td>
-    <td>🌍 国际</td>
-  </tr>
-  <tr>
-    <td>PublicSportsIPTV1</td>
-    <td>🌍 国际</td>
-  </tr>
-  <tr>
-    <td>PublicJapanIPTV1</td>
-    <td>🇯🇵 日本</td>
-  </tr>
-  <tr>
-    <td>PublicAsianIPTV1</td>
-    <td>🇧🇩 🇵🇰 🇮🇳 🇦🇪</td>
-  </tr>
-  <tr>
-    <td>PublicAsianIPTV1</td>
-    <td>🇧🇩 🇵🇰 🇮🇳 🇦🇪</td>
-  </tr>
-  <tr>
-    <td>PublicIndiaIPTV3</td>
-    <td>🇧🇩 🇵🇰 🇮🇳 🇦🇪</td>
-  </tr>  
-</tbody>
-</table>
 <br/>
 
 <h1>DMCA</h1>
