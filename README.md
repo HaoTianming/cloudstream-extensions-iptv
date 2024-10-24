@@ -45,4 +45,5 @@
 # Credit and Attribution:
 
 - ## Many thanks to:
-  - #### Phisher98 for his support and IPTV extension template (QuickIPTV) used in this extension (https://github.com/phisher98/cloudstream-extensions-phisher)
+  - #### Phisher98 for his support and the IPTV extension template (QuickIPTV) used in this extension (https://github.com/phisher98/cloudstream-extensions-phisher).
+  - #### Cloudstream developers and contributers for the amazing work they have done to make Cloudstream one of the the best media center for Android. 
