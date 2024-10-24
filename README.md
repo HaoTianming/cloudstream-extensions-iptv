@@ -15,6 +15,8 @@
 
 <br/>
 
+# **READ BEFORE PROCEEDING**
+
 > [!NOTE]
 > - ###  Due to the operational mechanics of the extensions/plugins, this repository ***DOES NOT*** and ***WILL NOT*** take any type of ***REQUESTS*** for any type of content whatsoever. ***DO NOT*** open any issues regarding this.
 > - ###  ***DO NOT OPEN*** any issues regarding certain channels or video streams not working or loading. Since we ***DO NOT HOST, RE-HOST, STREAM, RE-STREAM, STORE OR CONTROL*** any media, files, or video streams, or any other content that may be accessed through the functionalities provided by the extensions/plugins.
