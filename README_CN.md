@@ -37,3 +37,11 @@
 > #### <ul><h3> 责任限制: </h3> <li> 扩展/插件的所有者和开发者以及仓库[HaoTianming/cloudstream-extensions-iptv](https://github.com/HaoTianming/cloudstream-extensions-iptv) 对内容的误用不承担任何责任，无论是在扩展/插件内还是在外部环境中。此外，所有者/开发者不对通过使用扩展/插件可能发生的任何内容传播承担责任。扩展/插件的所有者对内容的误用不承担任何责任，无论是在扩展/插件内还是在外部环境中。此外，所有者/开发者不对通过使用扩展/插件可能发生的任何内容传播承担责任。</li></ul>
 > #### <ul><h3> 用户责任: </h3> <li> 确保遵守适用法律法规的唯一责任在于最终用户，包括但不限于知识产权法。如果任何一方认为其知识产权受到侵犯，建议他们联系相关 GitHub 仓库的所有者，这些仓库是扩展/插件抓取数据的来源，以及 M3U 播放列表中提到的各种互联网流的文件托管者。扩展/插件的所有者/开发者以及仓库[HaoTianming/cloudstream-extensions-iptv](https://github.com/HaoTianming/cloudstream-extensions-iptv) 对任何声称的侵权行为不承担法律责任。</li>
 > ### 谢谢。
+
+<br/>
+
+# Credit and Attribution：
+
+- ## 非常感谢：
+- #### Phisher98 的支持以及本扩展中使用的 IPTV 扩展模板 (QuickIPTV)（https://github.com/phisher98/cloudstream-extensions-phisher）。
+- #### Cloudstream 开发人员和贡献者，感谢他们为 Cloudstream 成为 Android 最好的媒体中心之一所做的出色工作。
