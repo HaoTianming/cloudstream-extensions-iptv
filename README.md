@@ -26,7 +26,7 @@
 > [!CAUTION]
 > ##  This repository is intended for educational and communication purposes only, please do not use it for any commercial purposes whatsoever. </li></ul>
 > ### <ul><li> By installing and using this extension, you acknowledge that the developers are not liable for the content accessed through the extension/plugin. Please be aware that such content may originate from sources that are not verified or legitimate. </li></ul>
-> ### <ul><li> It is your sole responsibility as the end user to ensure the legal use of this extension/plugin, and we strongly recommend verifying that any content accessed via the extension/plugin complies with the laws and regulations applicable in your respective jurisdictions, including but not limited to intellectual property laws. </li></ul>
+> ### <ul><li> It is your sole responsibility as the end user to ensure the legal use of this extension/plugin, and we strongly recommend verifying that any content accessed via the extensions/plugins complies with the laws and regulations applicable in your respective jurisdictions, including but not limited to intellectual property laws. </li></ul>
 > ---
 > ### <ul><li> If you hold any copyrights or represent a copyright owner or have any questions about the content accessed through this extension/plugin, we strongly encourage you to review the [DMCA Section of the README](https://github.com/HaoTianming/cloudstream-extensions-iptv#dmca) for important information. </li></ul>
 
