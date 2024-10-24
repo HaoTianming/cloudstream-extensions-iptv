@@ -11,6 +11,12 @@
 
 <br/>
 
+> [!NOTE]
+> ###  This repository DOES NOT and WILL NOT take any type of REQUESTS for any type of content whatsoever. DO NOT open an issue regarding this.
+> ###  DO NOT OPEN an issue regarding certain channels not working or loading. Since we CANNOT and DO NOT CONTOL any of the playlist and their content, we CANNOT FIX them.
+> ###  Some streams/channels WILL NOT work without being connected to a VPN SERVER in the country matching the playlist country.
+
+
 > [!CAUTION]
 > ##  This repository is intended for educational and communication purposes only, please do not use it for any commercial purposes whatsoever. </li></ul>
 > ### <ul><li> By installing and using this extension, you acknowledge that the developers are not liable for the content accessed through the extension/plugin. Please be aware that such content may originate from sources that are not verified or legitimate. </li></ul>
