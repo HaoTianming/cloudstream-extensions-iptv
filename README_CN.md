@@ -43,5 +43,5 @@
 # Credit and Attribution：
 
 - ## 非常感谢：
-- #### Phisher98 的支持以及本扩展中使用的 IPTV 扩展模板 (QuickIPTV)（https://github.com/phisher98/cloudstream-extensions-phisher）。
-- #### Cloudstream 开发人员和贡献者，感谢他们为 Cloudstream 成为 Android 最好的媒体中心之一所做的出色工作。
+- ### Phisher98 的支持以及本扩展中使用的 IPTV 扩展模板 (QuickIPTV)（https://github.com/phisher98/cloudstream-extensions-phisher）。
+- ### Cloudstream 开发人员和贡献者，感谢他们为 Cloudstream 成为 Android 最好的媒体中心之一所做的出色工作。
