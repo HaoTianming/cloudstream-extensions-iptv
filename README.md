@@ -42,6 +42,8 @@
 > #### <ul><h3> User Responsibility: </h3> <li> It is the sole responsibility of the end user to ensure compliance with the laws and regulations applicable in their respective jurisdictions, including, but not limited to, intellectual property laws. Should any party believe that their intellectual property rights are being infringed upon, they are encouraged to contact the owners of the relevant GitHub repositories from which the extensions/plugins scrape data, as well as the file hosts of the various internet streams referenced in the M3U playlists contained within these repositories. The owners/developers of the extensions/plugins as well as the repository [HaoTianming/cloudstream-extensions-iptv](https://github.com/HaoTianming/cloudstream-extensions-iptv) shall not be held legally accountable for any alleged infringements. </li>
 > ### Thank You.
 
+<br/>
+
 # Credit and Attribution:
 
 - ## Many thanks to:
