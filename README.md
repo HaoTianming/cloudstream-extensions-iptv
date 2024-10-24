@@ -32,41 +32,6 @@
 
 <br/>
 
-<h1>Providers</h1>
-<table><thead>
-  <tr>
-    <th>Provider</th>
-    <th>Country</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td>PublicIPTV</td>
-    <td>🌍 International</td>
-  </tr>
-  <tr>
-    <td>PublicSportsIPTV1</td>
-    <td>🌍 International</td>
-  </tr>
-  <tr>
-    <td>PublicJapanIPTV1</td>
-    <td>🇯🇵 Japan</td>
-  </tr>
-  <tr>
-    <td>PublicAsianIPTV1</td>
-    <td>🇧🇩 🇵🇰 🇮🇳 🇦🇪</td>
-  </tr>
-  <tr>
-    <td>PublicAsianIPTV1</td>
-    <td>🇧🇩 🇵🇰 🇮🇳 🇦🇪</td>
-  </tr>
-  <tr>
-    <td>PublicIndiaIPTV3</td>
-    <td>🇧🇩 🇵🇰 🇮🇳 🇦🇪</td>
-  </tr>  
-</tbody>
-</table>
-<br/>
-
 <h1>DMCA</h1>
 
 > [!IMPORTANT]  
