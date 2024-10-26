@@ -10,7 +10,7 @@ import com.lagradost.cloudstream3.utils.Qualities
 class PublicAmericasIPTV1 : PublicIPTV() {
     override var lang = "br"
     override var mainUrl: String = BuildConfig.public_americas_iptv_1
-    override var name = "Public Americas IPTV #1"
+    override var name = "Public North and South America IPTV #1"
     override val hasMainPage = true
     override val hasChromecastSupport = true
     override val supportedTypes = setOf(
