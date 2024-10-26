@@ -24,6 +24,7 @@ class PublicIPTVPlugin: Plugin() {
         registerMainAPI(PublicUSIPTV4())
         registerMainAPI(PublicBrazilIPTV1())
         registerMainAPI(PublicBrazilIPTV2())
+        registerMainAPI(PublicBrazilIPTV3())
         registerMainAPI(PublicSouthAmericaIPTV())
         registerMainAPI(PublicTVAndSportsEventsIPTV1())
         registerMainAPI(PublicThaiIPTV1())
