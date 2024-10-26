@@ -7,9 +7,9 @@ import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.INFER_TYPE
 import com.lagradost.cloudstream3.utils.Qualities
 
-class PublicBangladeshIPTV1 : PublicIPTV() {
+class PublicIndiaIPTV1 : PublicIPTV() {
     override var lang = "in"
-    override var mainUrl: String = BuildConfig.public_bangladesh_iptv_1
+    override var mainUrl: String = BuildConfig.public_india_iptv_1
     override var name = "Public Indian IPTV #1"
     override val hasMainPage = true
     override val hasChromecastSupport = true
