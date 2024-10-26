@@ -21,6 +21,7 @@ android {
         buildConfigField("String", "public_bangladesh_iptv_1", "\"${properties.getProperty("PUBLIC_BANGLADESH_IPTV_1")}\"")
         buildConfigField("String", "public_brazil_iptv_1", "\"${properties.getProperty("PUBLIC_BRAZIL_IPTV_1")}\"")
         buildConfigField("String", "public_brazil_iptv_2", "\"${properties.getProperty("PUBLIC_BRAZIL_IPTV_2")}\"")
+        buildConfigField("String", "public_brazil_iptv_2", "\"${properties.getProperty("PUBLIC_BRAZIL_IPTV_3")}\"")
         buildConfigField("String", "public_conflict_zone_iptv_1", "\"${properties.getProperty("PUBLIC_CONFLICT_ZONE_IPTV_1")}\"")
         buildConfigField("String", "public_france_iptv_1", "\"${properties.getProperty("PUBLIC_FRANCE_IPTV_1")}\"")
         buildConfigField("String", "public_greece_iptv_1", "\"${properties.getProperty("PUBLIC_GREECE_IPTV_1")}\"")
