@@ -100,7 +100,7 @@ jobs:
           echo public_bangladesh_iptv_1=$public_bangladesh_iptv_1 >> local.properties
           echo public_brazil_iptv_1=$public_brazil_iptv_1 >> local.properties
           echo public_brazil_iptv_2=$public_brazil_iptv_2 >> local.properties
-          echo public_brazil_iptv_2=$public_brazil_iptv_3 >> local.properties
+          echo public_brazil_iptv_3=$public_brazil_iptv_3 >> local.properties
           echo public_conflict_zone_iptv_1=$public_conflict_zone_iptv_1 >> local.properties
           echo public_france_iptv_1=$public_france_iptv_1 >> local.properties
           echo public_greece_iptv_1=$public_greece_iptv_1 >> local.properties
