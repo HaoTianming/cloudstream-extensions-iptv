@@ -49,6 +49,40 @@ jobs:
           public_asian_iptv_1: ${{ secrets.PUBLIC_ASIAN_IPTV_1 }}
           public_asian_iptv_2: ${{ secrets.PUBLIC_ASIAN_IPTV_2 }}
           public_sports_iptv_1: ${{ secrets.PUBLIC_SPORTS_IPTV_1 }}
+          public_asian_iptv_3: ${{ secrets.PUBLIC_ASIAN_IPTV_3 }}
+          public_asian_iptv_4: ${{ secrets.PUBLIC_ASIAN_IPTV_4 }}
+          public_asian_iptv_5: ${{ secrets.PUBLIC_ASIAN_IPTV_5 }}
+          public_asian_iptv_6: ${{ secrets.PUBLIC_ASIAN_IPTV_6 }}
+          public_asian_iptv_7: ${{ secrets.PUBLIC_ASIAN_IPTV_7 }}
+          public_americas_iptv_1: ${{ secrets.PUBLIC_AMERICAS_IPTV_1 }}
+          public_bangladesh_iptv_1: ${{ secrets.PUBLIC_BANGLADESH_IPTV_1 }}
+          public_brazil_iptv_1: ${{ secrets.PUBLIC_BRAZIL_IPTV_1 }}
+          public_brazil_iptv_2: ${{ secrets.PUBLIC_BRAZIL_IPTV_2 }}
+          public_conflict_zone_iptv_1: ${{ secrets.PUBLIC_CONFLICT_ZONE_IPTV_1 }}
+          public_france_iptv_1: ${{ secrets.PUBLIC_FRENCH_IPTV_1 }}
+          public_greece_iptv_1: ${{ secrets.PUBLIC_GREEK_IPTV_1 }}
+          public_hungary_iptv_1: ${{ secrets.PUBLIC_HUNGARY_IPTV_1 }}
+          public_india_iptv_1: ${{ secrets.PUBLIC_INDIA_IPTV_1 }}
+          public_international_iptv_1: ${{ secrets.PUBLIC_INTERNATIONAL_IPTV_1 }}
+          public_international_iptv_2: ${{ secrets.PUBLIC_INTERNATIONAL_IPTV_2 }}
+          public_international_iptv_3: ${{ secrets.PUBLIC_INTERNATIONAL_IPTV_3 }}
+          public_international_iptv_4: ${{ secrets.PUBLIC_INTERNATIONAL_IPTV_4 }}
+          public_malaysia_iptv_1: ${{ secrets.PUBLIC_MALAYSIA_IPTV_1 }}
+          public_russia_iptv_1: ${{ secrets.PUBLIC_RUSSIAN_IPTV_1 }}
+          public_south_america_iptv_1: ${{ secrets.PUBLIC_SOUTH_AMERICA_IPTV_1 }}
+          public_sports_iptv_2: ${{ secrets.PUBLIC_SPORTS_IPTV_2 }}
+          public_sports_iptv_3: ${{ secrets.PUBLIC_SPORTS_IPTV_3 }}
+          public_sports_iptv_4: ${{ secrets.PUBLIC_SPORTS_IPTV_4 }}
+          public_sports_iptv_5: ${{ secrets.PUBLIC_SPORTS_IPTV_5 }}
+          public_tv_and_sports_events_iptv_1: ${{ secrets.PUBLIC_INTL_TV_AND_SPORT_EVENTS_IPTV_1 }}
+          public_tamil_iptv_1: ${{ secrets.PUBLIC_TAMIL_IPTV_1 }}
+          public_thai_iptv_1: ${{ secrets.PUBLIC_THAI_IPTV_1 }}
+          public_thai_iptv_2: ${{ secrets.PUBLIC_THAI_IPTV_2 }}
+          public_turkiye_iptv_1: ${{ secrets.PUBLIC_TURKIYE_IPTV_1 }}
+          public_us_iptv_1: ${{ secrets.PUBLIC_US_IPTV_1 }}
+          public_us_iptv_2: ${{ secrets.PUBLIC_US_IPTV_2 }}
+          public_us_iptv_3: ${{ secrets.PUBLIC_US_IPTV_3 }}
+          public_us_iptv_4: ${{ secrets.PUBLIC_US_IPTV_4 }}
         run: |
           cd $GITHUB_WORKSPACE/src
           echo iptv_org=$iptv_org >> local.properties
@@ -56,6 +90,42 @@ jobs:
           echo public_asian_iptv_1=$public_asian_iptv_1 >> local.properties
           echo public_asian_iptv_2=$public_asian_iptv_2 >> local.properties
           echo public_sports_iptv_1=$public_sports_iptv_1 >> local.properties
+          echo public_asian_iptv_3=$public_asian_iptv_3 >> local.properties
+          echo public_asian_iptv_4=$public_asian_iptv_4 >> local.properties
+          echo public_asian_iptv_5=$public_asian_iptv_5 >> local.properties
+          echo public_asian_iptv_6=$public_asian_iptv_6 >> local.properties
+          echo public_asian_iptv_7=$public_asian_iptv_7 >> local.properties
+          echo public_americas_iptv_1=$public_americas_iptv_1 >> local.properties
+          echo public_bangladesh_iptv_1=$public_bangladesh_iptv_1 >> local.properties
+          echo public_brazil_iptv_1=$public_brazil_iptv_1 >> local.properties
+          echo public_brazil_iptv_2=$public_brazil_iptv_2 >> local.properties
+          echo public_conflict_zone_iptv_1=$public_conflict_zone_iptv_1 >> local.properties
+          echo public_france_iptv_1=$public_france_iptv_1 >> local.properties
+          echo public_greece_iptv_1=$public_greece_iptv_1 >> local.properties
+          echo public_hungary_iptv_1=$public_hungary_iptv_1 >> local.properties
+          echo public_india_iptv_1=$public_india_iptv_1 >> local.properties
+          echo public_international_iptv_1=$public_international_iptv_1 >> local.properties
+          echo public_international_iptv_2=$public_international_iptv_2 >> local.properties
+          echo public_international_iptv_3=$public_international_iptv_3 >> local.properties
+          echo public_international_iptv_4=$public_international_iptv_4 >> local.properties
+          echo public_malaysia_iptv_1=$public_malaysia_iptv_1 >> local.properties
+          echo public_russia_iptv_1=$public_russia_iptv_1 >> local.properties
+          echo public_south_america_iptv_1=$public_south_america_iptv_1 >> local.properties
+          echo public_sports_iptv_2=$public_sports_iptv_2 >> local.properties
+          echo public_sports_iptv_3=$public_sports_iptv_3 >> local.properties
+          echo public_sports_iptv_4=$public_sports_iptv_4 >> local.properties
+          echo public_sports_iptv_5=$public_sports_iptv_5 >> local.properties
+          echo public_tv_and_sports_events_iptv_1=$public_tv_and_sports_events_iptv_1 >> local.properties
+          echo public_tamil_iptv_1=$public_tamil_iptv_1 >> local.properties
+          echo public_thai_iptv_1=$public_thai_iptv_1 >> local.properties
+          echo public_thai_iptv_2=$public_thai_iptv_2 >> local.properties
+          echo public_turkiye_iptv_1=$public_turkiye_iptv_1 >> local.properties
+          echo public_us_iptv_1=$public_us_iptv_1 >> local.properties
+          echo public_us_iptv_2=$public_us_iptv_2 >> local.properties
+          echo public_us_iptv_3=$public_us_iptv_3 >> local.properties
+          echo public_us_iptv_4=$public_us_iptv_4 >> local.properties
+      
+
           
       - name: Build Plugins
         run: |
