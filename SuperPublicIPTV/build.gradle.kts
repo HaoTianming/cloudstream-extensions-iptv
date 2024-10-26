@@ -50,8 +50,6 @@ android {
         buildConfigField("String", "public_us_iptv_4", "\"${properties.getProperty("PUBLIC_US_IPTV_4")}\"")
     }
 }
-    }
-}
 
 cloudstream {
     // All of these properties are optional, you can safely remove them
