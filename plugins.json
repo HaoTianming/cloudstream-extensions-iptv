@@ -1,0 +1,21 @@
+[
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/HaoTianming/cloudstream-extensions-iptv",
+        "fileSize": 31559,
+        "status": 1,
+        "language": "universal",
+        "authors": [
+            "HaoTianming"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "SuperPublicIPTV",
+        "description": "Public IPTV Playlist aggregator",
+        "url": "https://raw.githubusercontent.com/HaoTianming/cloudstream-extensions-iptv/builds/SuperPublicIPTV.cs3",
+        "name": "SuperPublicIPTV"
+    }
+]
