@@ -1,0 +1,8 @@
+{
+    "name": "SuperIPTV Repo",
+    "description": "IPTV Repository",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/HaoTianming/cloudstream-extensions-iptv/refs/heads/builds/plugins.json"
+    ]
+  }
